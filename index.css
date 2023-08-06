@@ -1,20 +1,50 @@
 body {
     margin-left: 30px;
-    background-color: #031d44;
+    background-color: #e2bd98;
 }
 
 h1{
-    color: #9ad1d4; 
+    color: #110a0a; 
     margin: 10px;
 }
 
 #title2-el {
-    color: #ffe45e;
+    color: #bd1d1d;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7e1818;
+}
+
+.container {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e2bd98;
+    width: 500px;
+}
+
+.icon-container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 5px;
+}
+
+i{
+    font-size: 25px;
+}
+
+i:hover {
+    box-shadow: 0 0 8px #3f3434; 
+    border-radius: 50%;
+
 }
 
 p {
-    color: #d9dcd6;
+    color: #383636;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .header {
@@ -23,12 +53,12 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
 }
 
 
 label {
-    color: #9ad1d4;
+    color: #383636;
+    font-weight: bold;
 }
 
 .section {
@@ -41,18 +71,19 @@ label {
 
 button {
     width: 180px;
-    background-color: #1a3c75;
+    background-color: #3f3434;
     color: #ebf2fa;
     border: 1px solid #8b9596;
     padding: 10px 8px;
     border-radius: 8px;
     margin-left: 10px;
+    margin-top: 20px;
     height: 40px;
 }
 
 #passLength-el {
-    background-color: #031d44;
-    color: #ebf2fa;
+    background-color: #312b2b8b;
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     margin-left: 10px;
@@ -79,7 +110,7 @@ button {
 #password-one, #password-two {
     height: 40px;
     width: 200px;
-    background-color: #1a3c75;
+    background-color: #3f3434;
     border: 1px solid #8b9596;
     color: #ebf2fa;
     border-radius: 8px;
